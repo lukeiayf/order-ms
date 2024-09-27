@@ -11,6 +11,7 @@ I used [this vídeo](https://www.youtube.com/watch?v=e_WgAB0Th_I) as an inspirat
 - [Spring MVC](https://docs.spring.io/spring-framework/reference/web/webmvc.html)
 - [RabbitMQ](https://www.rabbitmq.com/)
 - [MongoDB](https://www.mongodb.com/)
+- [Docker](https://www.docker.com/)
 
 ## How to run
 - Clone git repo:
