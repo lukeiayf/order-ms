@@ -29,7 +29,7 @@ class OrderCreatedListenerTest {
         @Test
         void shouldCallServiceWithCorrectParameters() {
 
-            var event = OrderCreatedEventFactory.build();
+            var event = OrderCreatedEventFactory.buildWithOneItem();
             var message = MessageBuilder.withPayload(event).build();
 
             orderCreatedListener.listen(message);
