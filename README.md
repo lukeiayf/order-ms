@@ -28,6 +28,12 @@ git clone https://github.com/lukeiayf/order-ms
 ./mvnw clean package
 ```
 
+- Run docker containers
+```
+cd local
+docker-compose up
+```
+
 - Run:
 ```
 java -jar ./target/order-ms-0.0.1-SNAPSHOT.jar
