@@ -30,7 +30,6 @@ public class OrderController {
                                                                  @RequestParam(name = "size", defaultValue = "10") Integer size){
 
         Page<OrderResponse> pageResponse = orderService.findAllByCustomerId(customerId, PageRequest.of(page, size));
-
         BigDecimal totalOnOrders = orderService.findTotalOnOrdersByCustomerId(customerId);
 
         return ResponseEntity.ok(new ApiResponse<>(
